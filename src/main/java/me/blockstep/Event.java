@@ -23,6 +23,6 @@ public class Event {
                     p.getInventory().addItem(item);
                 }
             }
-        }.runTaskTimer(plugin, 0, 20);
+        }.runTaskTimer(plugin, 0, plugin.getConfig().getInt("Second")* 20L);
     }
 }
