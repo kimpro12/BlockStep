@@ -1,0 +1,6 @@
+name: BlockStep
+version: '1.0-SNAPSHOT'
+main: me.blockstep.BlockStep
+authors: [ KIM ]
+description: KIM
+api-version: 1.13
