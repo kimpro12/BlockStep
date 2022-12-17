@@ -11,6 +11,9 @@ public final class BlockStep extends JavaPlugin {
         saveDefaultConfig();
         Bukkit.getConsoleSender().sendMessage("[Blockstep] Plugin made by Kim");
         Bukkit.getConsoleSender().sendMessage("[BlockStep] Plugin enabled");
+        if (getConfig().getBoolean("Auto-BlockStep-When-Player-Join")) {
+            new AutoBlockStep(this);
+        }
         new Command(this);
     }
 

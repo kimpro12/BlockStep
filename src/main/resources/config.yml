@@ -5,3 +5,4 @@ Message-When-Player-Don't-Exist: "Player don't exist"
 When-SomeOne-Can-BlockStep: "You now can blockstep"
 When-SomeOne-Cannot-BlockStep: "You now can't blockstep"
 No-Permission: "You don't have permission"
+Auto-BlockStep-When-Player-Join: false
