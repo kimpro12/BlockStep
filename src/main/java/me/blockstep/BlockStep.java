@@ -9,8 +9,9 @@ public final class BlockStep extends JavaPlugin {
     public void onEnable() {
         getConfig().options().copyDefaults(true);
         saveDefaultConfig();
+        Bukkit.getConsoleSender().sendMessage("[Blockstep] Plugin made by Kim");
         Bukkit.getConsoleSender().sendMessage("[BlockStep] Plugin enabled");
-        new Event(this).run();
+        new Command(this);
     }
 
     @Override
