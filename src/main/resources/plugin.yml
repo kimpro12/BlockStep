@@ -4,3 +4,9 @@ main: me.blockstep.BlockStep
 authors: [ KIM ]
 description: KIM
 api-version: 1.13
+commands:
+  blockstep:
+    usage: /blockstep
+    description: Blockstep
+    permission: blockstep
+    permission-message: You don't have permission
